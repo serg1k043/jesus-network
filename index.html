@@ -1,0 +1,60 @@
+<title>Єдиний зв'язок</title>
+
+<style>
+    body {
+        margin: 0;
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #000000;
+        color: #FFFFFF;
+
+        font-family: "Times New Roman", serif;
+    }
+
+    .container {
+        max-width: 850px;
+        padding: 25px;
+        text-align: center;
+
+        animation: appear 2s ease;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+
+    .jesus {
+        color: #FFD700;
+        font-weight: bold;
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 34px;
+        }
+    }
+</style>
+<div class="container">
+    <h1>
+        Єдиний звʼязок який тобі потрібен —
+        це звʼязок з <span class="jesus">Ісусом</span>
+    </h1>
+</div>
